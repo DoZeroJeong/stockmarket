@@ -16,4 +16,7 @@ def home(request):
         stock = ""
 
     content = {'stock': stock}
+
     return render(request, 'stock/home.html', content)
+
+
